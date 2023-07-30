@@ -1,0 +1,12 @@
+.heading{
+    margin-top:100px;
+    
+}
+.links{
+    margin-top:5px;
+    justify-content: space-between;
+}
+.container{
+    background-color: rgb(127, 201, 121);
+    width:150rem;
+}

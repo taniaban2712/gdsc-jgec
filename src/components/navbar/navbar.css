@@ -1,0 +1,26 @@
+.gdsc-icon{
+    width:80px;
+    margin-left:50px;
+    margin-right: 20px;
+}
+.iconlink{
+    cursor: pointer;
+}
+.h-wrapper{
+    background-color:var(--black); 
+    width:100%;
+    color:white;
+}
+.h-container{
+    /*justify-content: space-between;*/
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    color:var(--secondary);
+}
+.h-menu{
+    gap:2rem;
+    justify-content:space-evenly;
+}
+.link{
+    text-decoration: none;
+}
