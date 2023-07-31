@@ -8,5 +8,13 @@
 }
 .container{
     background-color: rgb(127, 201, 121);
-    width:150rem;
+    height:400px;
+}
+.temp{
+    background-color: rgb(127, 201, 121);
+    margin-top: -100px;
+}
+.sp{
+    width:100%;
+    height:100px;
 }

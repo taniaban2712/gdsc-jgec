@@ -1,0 +1,17 @@
+.footer-head{
+    background-color: black;
+    margin-top:50px;
+    height: 100px;
+    color:white;
+    
+}
+.text{
+    display:flex;
+    justify-content: center;
+    
+}
+.gdsc-logo{
+    width:50px;
+    margin-left: 100px;
+   
+}
