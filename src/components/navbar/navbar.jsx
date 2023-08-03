@@ -1,22 +1,24 @@
 import React from 'react';
 import './navbar.css';
-import About from '../about/about';
+import{Link} from "react-router-dom";
+
+
+
 
 const Navbar = () => {
   return (
     <>
-    <section className="h-wrapper">
-        <div className="flexCenter padding innerWidth h-container">
-            <a href="" className='iconlink'><img src=".\assets\logo.png" alt="logo" className='gdsc-icon'/></a>
-            <div className="flexCenter h-menu">
-                <a href="#" className='link'>About</a>
-                <a href="#" className='link'>History</a>
-                <a href="#" className='link'>Events</a>
-                <a href="#" className='link'>Past GDSC Leads</a>
-                <a href="#" className='link'>Achievements</a>
-            </div>
-        </div>
-    </section>
+      <nav>
+            <a to="/" className='iconlink'><img src=".\assets\logo.png" alt="logo" className='gdsc-icon'/></a>
+            <ul>
+              <li><Link to="/" className='link-click'>Home</Link></li> 
+              <li><Link to="/about" className='link-click'>About</Link></li> 
+              <li><Link to="/achievements" className='link-click'>Achievements</Link></li> 
+              <li><Link to="/events" className='link-click'>Events</Link></li> 
+              <li><Link to="/history" className='link-click'>History</Link></li> 
+              <li><Link to="/pastleads" className='link-click'>Past GDSC Leads</Link></li> 
+            </ul>
+      </nav>
     </>
   )
 };
