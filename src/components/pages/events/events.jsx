@@ -5,6 +5,8 @@ const Event=()=>{
     return(
         <>
         <section id="events">
+        <div className="styling-even">
+         </div>
             <div className="container-event">
                 <h1 className='head-event'>Events</h1>
                 <div className="timeline">
@@ -38,8 +40,7 @@ const Event=()=>{
               <a href="#history" id='btn-event'> Know about the History of the Club</a>
               
             </div>
-                    <div className="styling-even">
-                 </div>
+                   
                 </div>
                 
             </div>

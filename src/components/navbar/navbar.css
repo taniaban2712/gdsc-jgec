@@ -30,7 +30,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color:rgb(47, 201, 47);
+    color:rgb(92, 157, 211);
     background-color: rgba(115, 115, 116, 0.527);
 }
 
@@ -38,7 +38,7 @@ nav{
     
     display: flex;
     align-items: center;
-    background-color:black;
+    background-color:rgb(11, 1, 46);
     position: -webkit-sticky;
     position: sticky;
     

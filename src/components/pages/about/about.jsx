@@ -6,6 +6,8 @@ const About=()=>{
         <>
         <section id="about">
          <div className="about-gdsc">
+         <div className="styling-abt">
+              </div>
             <h3 className='head'>About GDSC JGEC</h3>
             <div className="inform-head">
             <p>
@@ -16,12 +18,11 @@ const About=()=>{
             </p>
             </div>
             <div className="yt-jgec">
-                
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9mTnqgmkp6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div className="scroll-down">
               <a href="#events" id='btn-achieve'> Know about the Various Events organized</a>
-              <div className="styling-abt">
-              </div>
+              
             </div>
             
          </div>

@@ -1,18 +1,20 @@
 .heading{
   
     color:aliceblue;
+    
 }
 .links{
     margin-top:15px;
     color:antiquewhite;
     justify-content: space-between;
+    padding-right:5px;
 }
 .container{
     /*background:linear-gradient( rgb(16, 10, 75), rgb(106, 167, 247));*/
     height:533px;
 }
 .temp{
-    background:linear-gradient( rgb(16, 10, 75), rgb(106, 167, 247));
+    background:linear-gradient( rgb(16, 10, 75), #168752);
     
 }
 .sp{
@@ -20,18 +22,16 @@
     height:100px;
 }
 
-.styling{
-    height:100px;
-    background: linear-gradient(rgb(106, 167, 247), rgb(180, 23, 23));
-}
+
 #btn-home{
-    background-color: rgba(16, 10, 75, 0.774);
+    background-color: rgba(16, 10, 75, 0.575);
     color:aliceblue;
     border-style: none;
     border-radius:10px;
     height: 40px;
     width: 500px;
     align-items: center;
-    margin-left: 250px;
-    margin-top:200px;
+    margin-left: 300px;
+    margin-top:150px;
+    font-size:18px;
 }

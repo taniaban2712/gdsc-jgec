@@ -1,10 +1,10 @@
 #history{
-    background: linear-gradient(rgba(240, 238, 112, 0.616),rgba(68, 235, 26, 0.575));
-    height:700px;
+    background: linear-gradient(#df9f14,#a1481f);
+    height:800px;
 }
 
 .inform-hist{
-    color:black;
+    color:white;
     font-size: 20px;
     display: inline-block;
     font-size: 20px;
@@ -14,9 +14,12 @@
 }
 .head-hist{
     text-align:center;
+    color:white;
+    font-size: 50px;
+    text-shadow: 0 0 20px #130000, 0 0 10px #7e0b0b;
 }
 #btn-hist{
-    background-color: rgba(22, 110, 14, 0.575);
+    background-color: rgba(59, 23, 1, 0.575);
     align-items: center;
     margin-left:450px;
     color:aliceblue;
@@ -27,4 +30,11 @@
     width: 500px;
     padding: 5px;
     padding-left:100px;
+}
+.styling-hist{
+    height:30px;
+}
+.yt-jgec-hist{
+    margin-left:30%;
+    margin-top:-100px;
 }

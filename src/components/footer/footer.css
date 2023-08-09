@@ -1,16 +1,19 @@
-.footer-head{
-    background-color: black;
-    height: 100px;
+.footer{
+    height:100px;
+    background-color: rgb(59, 3, 3);
+}
+.copyright{
     color:white;
-    
+    font-size:20px;
+    justify-content: space-between;
+    display: flex;
 }
-.text{
-    display:flex;
-    justify-content: center;
-    
+.icons-link{
+    margin-right:100px;
+    margin-top:40px;
+    justify-content: space-between;
 }
-.gdsc-logo{
-    width:50px;
-    margin-left: 100px;
-   
+.tania{
+    margin-left:50px;
+    margin-top:40px;
 }

@@ -1,8 +1,9 @@
 .head{
- 
+    margin-top:50px;
     text-align: center;
     font-size: 50px;
     
+    text-shadow: 0 0 20px #160303, 0 0 10px #7e0b0b;
 }
 .inform-head{
     display: inline-block;
@@ -11,9 +12,12 @@
     margin-left:50px;
     color:rgb(243, 247, 250);
     height:300px;
+   
 }
+    
+
 #btn-achieve{
-    background-color: rgba(206, 67, 33, 0.575);
+    background-color: rgba(19, 70, 24, 0.575);
     align-items: center;
     margin-left:450px;
     color:aliceblue;
@@ -23,13 +27,21 @@
     width: 500px;
     padding: 5px;
     padding-left:50px;
+    margin-top: 30px;
 }
 
 #about{
     color:aliceblue;
-    background: linear-gradient(rgb(180, 23, 23),rgb(247, 243, 4));
+    /*background: linear-gradient(rgb(180, 23, 23),rgb(207, 205, 43));*/
+    background:linear-gradient(#168752,#ecc903);
+    height:900px;
 }
 .styling-abt{
-    height:100px;
+    height:5px;
     /*background:linear-gradient(rgb(243, 145, 145),rgb(247, 243, 4))*/
+}
+.yt-jgec{
+    margin-top:-100px;
+    margin-left:30%;
+    margin-bottom:10px;
 }
