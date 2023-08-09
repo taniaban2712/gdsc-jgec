@@ -11,7 +11,7 @@ const Past=()=>{
          <div className="styling-hist">
           </div>
             <div className="container-past">
-                <h3 className="head-lead">Our Past Leaders</h3>
+                <h3 className="head-lead">Our Previous Leaders</h3>
                 <div className="timeline-hist">
                     <div className="container-even-hist right-container">
                         <img src="./assets/niloysikdar.png" alt="niloy sikdar" className='lead-img'/>
