@@ -1,0 +1,35 @@
+.head{
+ 
+    text-align: center;
+    font-size: 50px;
+    
+}
+.inform-head{
+    display: inline-block;
+    font-size: 20px;
+    margin:20px;
+    margin-left:50px;
+    color:rgb(243, 247, 250);
+    height:300px;
+}
+#btn-achieve{
+    background-color: rgba(206, 67, 33, 0.575);
+    align-items: center;
+    margin-left:450px;
+    color:aliceblue;
+    border-style: none;
+    border-radius:10px;
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    padding-left:50px;
+}
+
+#about{
+    color:aliceblue;
+    background: linear-gradient(rgb(180, 23, 23),rgb(247, 243, 4));
+}
+.styling-abt{
+    height:100px;
+    /*background:linear-gradient(rgb(243, 145, 145),rgb(247, 243, 4))*/
+}

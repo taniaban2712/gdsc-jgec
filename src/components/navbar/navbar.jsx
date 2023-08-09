@@ -1,25 +1,25 @@
 import React from 'react';
 import './navbar.css';
-import{Link} from "react-router-dom";
+import { Link } from 'react-router-dom';
+import {useState, useRef} from 'react'
 
 
 
 
 const Navbar = () => {
+  const [activeNav, setActiveNav] = useState('#')
+
   return (
-    <>
-      <nav>
-            <a to="/" className='iconlink'><img src=".\assets\logo.png" alt="logo" className='gdsc-icon'/></a>
-            <ul>
-              <li><Link to="/" className='link-click'>Home</Link></li> 
-              <li><Link to="/about" className='link-click'>About</Link></li> 
-              <li><Link to="/achievements" className='link-click'>Achievements</Link></li> 
-              <li><Link to="/events" className='link-click'>Events</Link></li> 
-              <li><Link to="/history" className='link-click'>History</Link></li> 
-              <li><Link to="/pastleads" className='link-click'>Past GDSC Leads</Link></li> 
-            </ul>
-      </nav>
-    </>
+    <nav className='sticky-nav'>
+      <a href="#" onClick={ () => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+        <img src="./assets/logo.png" className='gdsc-icon'/>
+      </a>
+      <a href="#" onClick={ () => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a>
+      <a href="#about" onClick={ () => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</a>
+      <a href="#events" onClick={ () => setActiveNav('#events')} className={activeNav === '#events' ? 'active' : ''}>Events</a>
+      <a href="#history" onClick={ () => setActiveNav('#history')} className={activeNav === '#history' ? 'active' : ''}>History</a>
+      <a href="#pastleads" onClick={ () => setActiveNav('#pastleads')} className={activeNav === '#pastleads' ? 'active' : ''}>Past GDSC Leads</a>
+    </nav>
   )
 };
 export default Navbar;

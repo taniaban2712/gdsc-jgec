@@ -1,0 +1,30 @@
+#history{
+    background: linear-gradient(rgba(240, 238, 112, 0.616),rgba(68, 235, 26, 0.575));
+    height:700px;
+}
+
+.inform-hist{
+    color:black;
+    font-size: 20px;
+    display: inline-block;
+    font-size: 20px;
+    margin:20px;
+    margin-left:50px;
+    height:300px;
+}
+.head-hist{
+    text-align:center;
+}
+#btn-hist{
+    background-color: rgba(22, 110, 14, 0.575);
+    align-items: center;
+    margin-left:450px;
+    color:aliceblue;
+    margin-top:50px;
+    border-style: none;
+    border-radius:10px;
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    padding-left:100px;
+}

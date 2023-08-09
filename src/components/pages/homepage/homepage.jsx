@@ -17,10 +17,13 @@ const Home=()=>{
                     <LinkedInIcon sx={{fontSize:40}} cursor="pointer" onClick={()=>window.open("https://www.linkedin.com/company/gdscjgec/")}/>
                     <YouTubeIcon sx={{fontSize:40}} cursor="pointer" onClick={()=>window.open("https://www.youtube.com/channel/UCcY06CBxUxl06w9YxwLkXYw")}/>
                 </div>
-            <div className="information-club">
-                
+                <a href="#about" className='btn' id="btn-home"> Click to Know About the Club </a>
+               
             </div>
+            
         </div>
+        <div className="styling">
+                
         </div>
         </>
     )

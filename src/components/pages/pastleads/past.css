@@ -1,0 +1,35 @@
+#pastleads{
+    background: linear-gradient(rgba(68, 235, 26, 0.575),rgb(23, 92, 6));
+    height:1800px;
+}
+
+
+.head-lead{
+    font-size: 50px;
+    text-align:center;
+}
+#btn-past{
+    background-color: rgba(56, 235, 40, 0.575);
+    align-items: center;
+    margin-left:450px;
+    color:black;
+    margin-top:50px;
+    border-style: none;
+    border-radius:10px;
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    padding-left:140px;
+}
+.container-even-hist{
+    padding:10px 50px;
+    position: relative;
+    background: rgba(17, 153, 4, 0.575);
+    width:50%;
+}
+.text-box{
+    padding: 20px 30px;
+    background: rgba(75, 216, 62, 0.575);
+    position:relative;
+    border-radius: 6px;
+}
