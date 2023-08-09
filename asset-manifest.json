@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gdsc-jgec/static/css/main.e1c6d362.css",
+    "main.js": "/gdsc-jgec/static/js/main.bda43234.js",
+    "static/js/787.a7d2ad3e.chunk.js": "/gdsc-jgec/static/js/787.a7d2ad3e.chunk.js",
+    "index.html": "/gdsc-jgec/index.html",
+    "main.e1c6d362.css.map": "/gdsc-jgec/static/css/main.e1c6d362.css.map",
+    "main.bda43234.js.map": "/gdsc-jgec/static/js/main.bda43234.js.map",
+    "787.a7d2ad3e.chunk.js.map": "/gdsc-jgec/static/js/787.a7d2ad3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c6d362.css",
+    "static/js/main.bda43234.js"
+  ]
+}
